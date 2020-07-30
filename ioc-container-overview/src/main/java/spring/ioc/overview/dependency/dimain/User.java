@@ -29,4 +29,12 @@ public class User {
                 ", age=" + age +
                 '}';
     }
+
+    public static User createUser(){
+        User user = new User();
+        user.setName("实例化");
+        user.setAge(1);
+
+        return user;
+    }
 }
